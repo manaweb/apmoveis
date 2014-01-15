@@ -82,7 +82,7 @@
   <div class=" container">
    
     <div class="row">
-         <h1 class="produtos text-muted center-block">Produtos</h1>
+         <h1 class="produtos text-muted center-block">Sobre a Empresa</h1>
 
       <?=utf8_encode(htmlentities(strip_tags($dados['texto'])));?>
 
