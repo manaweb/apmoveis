@@ -84,14 +84,12 @@
     <div class="row">
          <h1 class="produtos text-muted center-block">Sobre a Empresa</h1>
              <hr class="featurette-divider">
-  <?php
-      $sql = "select * from historico where id=1 limit 1";
-      $dados = mysql_fetch_assoc(mysql_query($sql));
-   ?>
-
-
-      <?=utf8_encode(htmlentities(strip_tags($dados['texto'])));?>
-
+           <p><?php
+                $sql = "select * from historico where id=1 limit 1";
+                $dados = mysql_fetch_assoc(mysql_query($sql));
+             ?>
+                <?=utf8_encode(htmlentities(strip_tags($dados['texto'])));?>
+            </p>
      </div><!-- /.row -->
       
    </div><!-- container-->
