@@ -13,6 +13,11 @@
             <span>Home</span>
           </a>
         </li>
+        <li>
+          <a href="sobre.php">
+            <span>Quem somos</span>
+          </a>
+        </li>
         <li class='has-sub'>
           <a href='./produtos.php'>
             <span>Produtos</span>
@@ -73,7 +78,11 @@
                 <span>Home</span>
               </a>
             </li>
-            
+            <li>
+              <a href="sobre.php">
+                <span>Quem somos</span>
+              </a>
+            </li>
           <li class="dropdown">
             <a  class"dropdown-toggle" data-toggle="dropdown" href="javascript:void(0);">
               Produtos
@@ -90,7 +99,6 @@
                 </li>
                 <?php } ?>
               </ul>
-            
           </li>
           <li>
             <a href="promocoes.php">
@@ -155,101 +163,13 @@
 		</div>
 	<?php } ?>
     </div>
-    <!-- /.blue caption -->
-    <div class="carousel-caption  visible-lg visible-md hidden-sm hidden-xs img-responsive">
-      <h2 class="caption-blue-text-title">Sobre a Empresa</h2>
-      <?php
-      $sql = "select * from historico where id=1 limit 1";
-      $dados = mysql_fetch_assoc(mysql_query($sql));
-    ?>
-      <p class="caption-blue-text-body">
-        
-      </p>
 
-      <div class="visible-lg hidden-md hidden-sm hidden-xs">
-        <p class="caption-blue-text-about">
-          <?=utf8_encode(htmlentities(strip_tags($dados['texto'])));?>
-        </p>
-      </div>
+  <!-- /.Controls -->
 
-      <div class="hidden-lg visible-md hidden-sm hidden-xs">
-        <p class="caption-blue-text-about">
-          <?=utf8_encode(htmlentities(strip_tags($dados['texto'])));?>
-        </p>
-      </div>
-
-      <div class="hidden-lg hidden-md visible-sm hidden-xs">
-        <p class="caption-blue-text-about">
-          <?=utf8_encode(htmlentities(strip_tags($dados['texto'])));?>
-        </p>
-      </div>
-
-      <div class="hidden-lg hidden-md hidden-sm visible-xs">
-        <p class="caption-blue-text-about">
-          <?=utf8_encode(htmlentities(strip_tags($dados['texto'])));?>
-        </p>
-      </div>
-    </div>
-    <!-- Controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <span class="icon-prev"></span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="icon-next"></span>
-    </a>
-  </div>
-  <!-- /.carousel -->
-
-  <!-- /.carousel -->
+  
   <div class="clearfix"></div>
 
-  <!-- conteudo (markting) ================================================= -->
-  <div  class="container marketing">
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-    <!-- caption mobile/tablet-->
-    <div class="row caption-responsive">
-      <div class="col-sm-12 col-xs-12 hidden-lg hidden-md visible-sm visible-xs">
-        <div class="carousel-caption-responsive img-responsive">
-          <h2 class="caption-blue-text-title">Sobre a Empresa</h2>
-          <p class="caption-blue-text-body">
-            <?php
-              $sql = "select * from historico where id=1 limit 1";
-              $dados = mysql_fetch_assoc(mysql_query($sql));
-            ?>
-           </p>
-
-          <div class="visible-lg hidden-md hidden-sm hidden-xs">
-            <p class="caption-blue-text-about">
-              <?=utf8_encode(htmlentities(strip_tags($dados['texto'])));?>
-            </p>
-          </div>
-
-          <div class="hidden-lg visible-md hidden-sm hidden-xs">
-            <p class="caption-blue-text-about">
-              <?=utf8_encode(htmlentities(strip_tags($dados['texto'])));?>
-            </p>
-          </div>
-
-          <div class="hidden-lg hidden-md visible-sm hidden-xs">
-            <p class="caption-blue-text-about">
-              <?=utf8_encode(htmlentities(strip_tags($dados['texto'])));?>
-            </p>
-          </div>
-
-          <div class="hidden-lg hidden-md hidden-sm visible-xs">
-            <p class="caption-blue-text-about">
-              <?=utf8_encode(htmlentities(strip_tags($dados['texto'])));?>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  </div>  <!-- /.Carossel -->
 
   <script type="text/javascript">
     $('#myCarousel').carousel({
