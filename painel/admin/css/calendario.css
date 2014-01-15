@@ -1,0 +1,24 @@
+* { padding:0; margin:0; font-family:'Trebuchet MS'; font-size:12px; }
+body { margin:0px; font-family:arial; }
+td,tr,table,div { font-size:12px; color:#000 }
+a { color:#888; text-decoration:none}
+/* Calendar */
+table.calendar      { width: 100%; }
+table.calendar td   { text-align: center; }
+table.calendar td a { display: block; color:#666 }
+
+table.calendar td a:hover {
+    background-color: #222; color:#ffffff; font-weight:bold;
+}
+
+table.calendar th {
+    background-color: #f1f1f2; padding:5px 0;
+}
+
+table.calendar td.selected {
+    background-color: #ccc;
+}
+
+img.calendar { border: none; }
+form.clock   { text-align: center; }
+/* end Calendar */

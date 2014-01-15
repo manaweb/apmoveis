@@ -1,0 +1,324 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Sistema iGresoft</title>
+<!-- ligthbox css -->
+<link href="./styles/jquery.fancybox-1.3.4.css" rel="stylesheet" type="text/css" />
+<!-- WYSIWYG Editor de texto -->
+<link href="./styles/wysiwyg.css" rel="stylesheet" type="text/css" />
+<!-- CSS CONTROLES E DEMAIS OPÇÕES -->
+<link href="./styles/main.css" rel="stylesheet" type="text/css" />
+<!-- CSS GERAL -->
+<link href="./themes/blue/styles.css" rel="stylesheet" type="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+<body>
+
+<!-- LOGO E PESQUISA -->
+	<div id="header">
+    	<img src="./images/logo.png" alt="AdminCP" class="logo" />
+    </div>
+ <!-- FIM DA LOGO E PESQUISA -->   
+    
+<!-- INÍCIO DA ESQUERDA COM MENUS ETC -->
+        <div id="left">
+
+
+<!-- TOLBOX QUE DESCE - MENU -->
+        	<div id="openCloseIdentifier"></div>
+            <div id="slider">
+                <ul id="sliderContent">
+                    <li><a href="#" title="">Configurações do site</a></li>
+                    <li class="alt"><a href="#" title="">Gerenciar usuários</a></li>
+                    <li><a href="#" title="">Alterar senha</a></li>
+                    <li class="alt"><a href="#" title="">Suporte</a></li>
+                    <li><a href="#" title="">Sair</a></li>
+                </ul>
+                <div id="openCloseWrap">
+                    <div id="toolbox">
+            			<a href="#" title="Toolbox Dropdown" class="toolboxdrop">Opções <img src="./images/icon_expand_grey.png" alt="Expand" /></a>
+            		</div>
+                </div>
+            </div>
+<!-- FIM FIM TOLBOX QUE DESCE - MENU  -->   
+    	
+<!-- LOGADO -->
+            <div id="userbox">
+            	<p>Ola, Administrador</p>
+                <p><span><br>Opções</span></p>
+                <ul>
+                	<li><a href="#" title="Acessar seu e-mail"><img src="./images/icons/icon_mail.png" alt="Acessar seu e-mail" /></a></li>
+                    <li><a href="#" title="Configurações"><img src="./images/icons/icon_cog.png" alt="Configurações" /></a></li>
+                    <li><a href="#" title="Sair"><img src="./images/icons/icon_unlock.png" alt="Sair" /></a></li>
+                </ul>
+            </div>
+<!-- FIM LOGADO -->  
+
+<!-- INÍCIO DO MENU NAVEGAÇÃO -->         
+            <ul id="nav">
+			
+			
+			<li><ul class="navigation">
+			<li class="heading selected">Página Principal</li>
+			</ul></li> 
+			
+			<BR><BR>
+			
+
+                <li>
+                    <a class="collapsed heading">Menu</a>
+                     <ul class="navigation">
+                        <li><a href="#" title="">Sub Menu</a></li>
+                        <li><a href="#" title="">Sub Menu</a></li>
+                        <li><a href="#" title="">Sub Menu</a></li>
+                    </ul>
+                </li>  
+				
+            </ul>
+        </div>      
+<!-- FIM DA NAVEGAÇÃO DOS MENUS --> 
+
+<!-- FIM DA ESQURDA COOM MENUS -->   
+
+
+
+<!-- INÍCIO DA DIREITA -->     
+        <div id="right">
+
+<!-- LOGADO STATUS-->  
+            <div id="breadcrumb">
+                <ul>	
+        			<li>Olá administrador, seu último acesso foi: 20/08/2011 às 19:38:18 </li>
+                </ul>
+            </div>
+<!-- FIM LOGADO -->  
+
+
+
+<!-- BOTÕES TOPO ADMIN -->  
+            <ul id="topbtns">
+            	<li class="desc"><strong>Serviços:</strong><br />Sistema iGresoft</li>
+            <!--    <li>
+                	<a href="#"><img src="./images/icons/icon_lrg_calendar.png" alt="Calendar" /><br />Calendar</a>
+                </li>
+                <li>
+                	<a href="#"><img src="./images/icons/icon_lrg_create.png" alt="Create" /><br />Create</a>
+                </li>
+                <li>
+                	<a href="#"><img src="./images/icons/icon_lrg_user.png" alt="Users" /><br />Users</a>
+                </li> -->
+                <li>
+                	<a href="#"><img src="./images/icons/icon_lrg_media.png" alt="Pagar fatura" /><br />Fatura</a>
+                </li>
+                <li>
+                	<a href="#"><img src="./images/icons/icon_lrg_comment.png" alt="Comment" /><br />Novidades</a>
+                </li>
+                <li>
+                	<a href="#"><img src="./images/icons/icon_lrg_support.png" alt="Suporte técnico" /><br />Suporte</a>
+                </li>
+            </ul>
+<!-- FIM DOS BOTÕES -->  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!-- Main content start -->      
+            <div id="content">
+
+<!-- INÍCIO DO GRÁFICO -->          
+        		<div class="container med left" id="graphs">
+                	<div class="conthead">
+                		<h2>Gráfico de visitas</h2>
+                    </div>
+<!-- MENUS DOS GRAFICOS -->                    
+                	<div class="contentbox">
+                    	<ul class="tablinks tabfade">
+                        	<li class="nomar"><a href="#graphs-1">Barras</a></li>
+                            <li><a href="#graphs-4">Área</a></li>
+                        </ul>
+<!-- FIM MENU GRAFICOS -->                       
+<!-- INICIANDO TABELAS DE GRAFICOS -->
+                    	<div class="tabcontent" id="graphs-1">
+                            <table style="display: none; height: 250px" class="bar" width="52%">
+                                <caption>Visitas</caption>
+                                <thead>
+                                    <tr>
+                                        <td></td>
+                                        <th scope="col">20/08</th>
+                                        <th scope="col">21/08</th>
+                                        <th scope="col">22/08</th>
+                                        <th scope="col">23/08</th>
+                                        <th scope="col">24/08</th>
+                                        <th scope="col">Hoje</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">Visualizações</th>
+                                        <td>100</td>
+                                        <td>160</td>
+                                        <td>40</td>
+                                        <td>120</td>
+                                        <td>30</td>
+                                        <td>70</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Únicas</th>
+                                        <td>3</td>
+                                        <td>40</td>
+                                        <td>30</td>
+                                        <td>45</td>
+                                        <td>35</td>
+                                        <td>49</td>
+                                    </tr>	
+                                </tbody>
+                            </table>
+                    </div>
+                   
+                    
+                   		<div class="tabcontent" id="graphs-4">
+                            <table style="display: none; height: 250px" class="area" width="52%">
+                               <caption>Visitas</caption>
+                                <thead>
+                                    <tr>
+                                        <td></td>
+                                        <th scope="col">20/08</th>
+                                        <th scope="col">21/08</th>
+                                        <th scope="col">22/08</th>
+                                        <th scope="col">23/08</th>
+                                        <th scope="col">24/08</th>
+                                        <th scope="col">Hoje</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">Visualizações</th>
+                                        <td>100</td>
+                                        <td>160</td>
+                                        <td>40</td>
+                                        <td>120</td>
+                                        <td>30</td>
+                                        <td>70</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Únicas</th>
+                                        <td>3</td>
+                                        <td>40</td>
+                                        <td>30</td>
+                                        <td>45</td>
+                                        <td>35</td>
+                                        <td>49</td>
+                                    </tr>	
+                                </tbody>
+                            </table>
+                   		</div>
+<!-- FIM DO GRÁFICO -->  
+                      
+                    </div>
+                </div>
+                
+<!-- INÍCIO DAS ESTATÍSTICAS -->               
+                <div class="container sml right">
+                	<div class="conthead">
+                		<h2>Estatísticas</h2>
+                    </div>
+                	<div class="contentbox">
+                    	<ul class="summarystats">
+                        	<li>
+                            	<p class="statcount">30</p> <p>Visitas hoje</p>  
+                            </li>
+                            <li>
+                            	<p class="statcount">170</p> <p>Membros cadastrados</p>  <p class="statview"><a href="#" title="view">ver</a></p>
+                            </li>
+                            <li>
+                            	<p class="statcount">95</p> <p>Comentários</p>  <p class="statview"><a href="#" title="view">ver</a></p>
+                            </li>
+                            <li>
+                            	<p class="statcount">10</p> <p>Ofertas</p>  <p class="statview"><a href="#" title="view">ver</a></p>
+                            </li>
+                        </ul>
+                        
+                    </div>
+                </div>
+<!-- FIM DAS ESTATÍSTICAS -->  
+               
+                <!-- LIMPAR --> <div style="clear: both"></div>
+                
+ </div>
+ 
+ 
+ 
+<!-- RODAPE --> 
+            <p id="footer">
+			&copy; <?=date("Y");?> - <a href="http://www.igresoft.com" target="_blank">iGresoft</a> - Todos os direitos reservados<br>Para maiores informações acesse <a href="http://www.igresoft.com" target="_blank">iGresoft.com</a> ou entre em contato: contato@igresoft.com.br
+			</p>
+<!-- RODAPE-->      
+     
+</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+<!-- IMPORTANTES --> 
+
+		<script type="text/javascript" src="http://dwpe.googlecode.com/svn/trunk/_shared/EnhanceJS/enhance.js"></script>	
+   		<script type='text/javascript' src='http://dwpe.googlecode.com/svn/trunk/charting/js/excanvas.js'></script>
+        <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js'></script>
+        <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.6/jquery-ui.min.js'></script>
+        <script type='text/javascript' src='./js/jquery.fancybox-1.3.4.pack.js'></script>
+        <script type='application/javascript' src='./js/fullcalendar.min.js'></script>
+        <script type='text/javascript' src='./js/jquery.wysiwyg.js'></script>
+        <script type='text/javascript' src='./js/visualize.jQuery.js'></script>
+        <script type='application/javascript' src='./js/functions.js'></script>
+</body>
+</html>

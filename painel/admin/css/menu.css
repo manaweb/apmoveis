@@ -1,0 +1,179 @@
+/* ThemeOfficeMenu Style Sheet */
+#myMenuID { background-color:#EFEFF0; }
+
+.ThemeOfficeMenu,.ThemeOfficeSubMenuTable
+{
+	font-family: 'Trebuchet MS';
+	font-size: 12px;
+	padding: 0;
+	white-space:nowrap;
+	cursor:	default;
+}
+
+.ThemeOfficeSubMenu
+{
+	position:	absolute;
+	visibility:	hidden;
+	/*
+	   Netscape/Mozilla renders borders by increasing
+	   their z-index.  The following line is necessary
+	   to cover any borders underneath
+	*/
+	z-index:	100;
+	border:		1px solid #222;
+	background-color:	#222; opacity: 0.9; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=90);
+	
+	overflow:	visible;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#000000, Direction=135, Strength=3);
+}
+
+.ThemeOfficeSubMenuTable { overflow: visible; }
+
+.ThemeOfficeMainItem,.ThemeOfficeMainItemHover,.ThemeOfficeMainItemActive,
+.ThemeOfficeMenuItem,.ThemeOfficeMenuItemHover,.ThemeOfficeMenuItemActive
+{
+	border:		0;
+	cursor:		default;
+	white-space:	nowrap;
+}
+
+.ThemeOfficeMainItem { background-color: #EFEFF0; }
+.ThemeOfficeMainItemHover,.ThemeOfficeMainItemActive { 	background-color:#EFEFF0; }
+.ThemeOfficeMenuItem { background-color: #222; opacity: 0.9; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=90); }
+.ThemeOfficeMenuItemHover,.ThemeOfficeMenuItemActive { background-color:#f4f4f4; border:none; cursor:pointer;color: #222; text-decoration:none; opacity: 9.9; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=99);}
+
+
+/* horizontal main menu */
+
+/* ITEM PRINCIPAL - NORMAL */
+.ThemeOfficeMainItem
+{
+	padding:0;
+	height:20px;
+}
+
+/* HOVER DO ITEM PRINCIPAL */
+td.ThemeOfficeMainItemHover,td.ThemeOfficeMainItemActive
+{
+	background:#f4f4f4;
+	height:20px;
+}
+
+.ThemeOfficeMainItem .ativo,
+td.ThemeOfficeMainItemHover .ativo, 
+td.ThemeOfficeMainItemActive .ativo { 
+	background:#222;
+	border:1px dotted #ccc;
+	color:#fff;
+	padding:5px 10px 5px 10px;
+	height:20px;
+
+}
+
+.ThemeOfficeMainItem .bloqueado,
+td.ThemeOfficeMainItemHover .bloqueado, 
+td.ThemeOfficeMainItemActive .bloqueado { 
+	color:#ccc; font-weight:normal;
+}
+
+/* ITEM PRINCIPAL - TEXTO*/
+.ThemeOfficeMainFolderLeft div,.ThemeOfficeMainItemLeft div,
+.ThemeOfficeMainFolderText div,.ThemeOfficeMainItemText div,
+.ThemeOfficeMainFolderRight div,.ThemeOfficeMainItemRight div
+{
+	background-color:inherit;
+	color:#222;
+	font-size:13px;
+	font-weight:bold;
+	border:	1px solid #E0DFE3;
+	padding:5px 10px 5px 10px;
+	height:20px;
+}
+
+
+/* sub menu sub components */
+
+/* HOVER DO ITEM - BOLINHA */
+.ThemeOfficeMenuFolderLeft,.ThemeOfficeMenuItemLeft
+{
+	padding:4px 10px;
+	color:#fff;
+	background-color:inherit;
+	white-space:nowrap;
+
+}
+/* HOVER DO ITEM - NOME */
+.ThemeOfficeMenuFolderText,.ThemeOfficeMenuItemText
+{
+	padding: 0;
+	color:#000;
+	background-color:inherit;
+	white-space:nowrap;
+
+}
+
+/* HOVER DA SETINHA */
+.ThemeOfficeMenuFolderRight,.ThemeOfficeMenuItemRight
+{
+	padding:4px;
+	background-color:inherit;
+	white-space:nowrap;
+
+}
+
+/* NORMAL - BOLINHA */
+.ThemeOfficeMenuItem .ThemeOfficeMenuFolderLeft,
+.ThemeOfficeMenuItem .ThemeOfficeMenuItemLeft
+{
+	padding: 4px 10px;
+	white-space:	nowrap;
+
+	background-color:	#222;
+}
+
+/* NORMAL - NOME */
+.ThemeOfficeMenuItem .ThemeOfficeMenuFolderText,
+.ThemeOfficeMenuItem .ThemeOfficeMenuItemText
+{
+	padding:0;
+	color:#fff;
+
+	background-color:	inherit;
+}
+
+/* NORMAL SETA */
+.ThemeOfficeMenuItem .ThemeOfficeMenuFolderRight,
+.ThemeOfficeMenuItem .ThemeOfficeMenuItemRight
+{
+	padding:4px;
+
+	background-color:	inherit;
+}
+
+/* image shadow animation */
+
+/*
+	seq1:	image for normal
+	seq2:	image for hover and active
+
+	To use, in the icon field, input the following:
+	<img class="seq1" src="normal.gif" /><img class="seq2" src="hover.gif" />
+*/
+
+.ThemeOfficeMenuItem img.seq1
+{
+	display:	inline;
+}
+
+.ThemeOfficeMenuItemHover seq2,
+.ThemeOfficeMenuItemActive seq2
+{
+	display:	inline;
+}
+
+.ThemeOfficeMenuItem .seq2,
+.ThemeOfficeMenuItemHover .seq1,
+.ThemeOfficeMenuItemActive .seq1
+{
+	display:	none;
+}

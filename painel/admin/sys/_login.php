@@ -1,0 +1,1 @@
+<? header('Location: ../_login.php',true); ?>

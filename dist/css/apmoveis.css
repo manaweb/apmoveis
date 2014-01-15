@@ -1,0 +1,987 @@
+﻿/* ===================================== Ap-moveis Css ===================================== */
+
+.text-muted{
+color:#758785 !important;
+}
+.porcima{
+z-index:2;
+}
+.carousel-control{
+z-index:11;
+}
+.icon-next{
+z-index:11;
+}
+.navbar{
+margin-bottom:0px;
+}
+.carousel-caption{
+background:none repeat scroll 0 0 #1376D8;
+opacity:0.85;
+bottom:0px;
+z-index:10;
+position:absolute;
+right:13%;
+left:13%;
+padding-top:0px;
+padding-bottom:0px;
+color:#ffffff;
+text-shadow:0px 3px 4px 0px rgba(0, 0, 0, 0.6);
+/* Chrome, Firefox 3.5+, IE 10+, Opera 9+, Safari 1+ */
+:;
+}
+.caption-responsive > .col-lg-12{
+margin:20px 0px 0px 0px;
+}
+.caption-responsive > .col-md-12{
+margin:20px 0px 0px 0px;
+}
+.caption-responsive > .col-sm-12{
+margin:44px 0px 0px 0px;
+}
+.caption-responsive >.col-xs-12{
+margin:137px 0px 0px 0px;
+}
+.carousel-caption-responsive{
+background:none repeat scroll 0 0 #1376D8;
+opacity:0.85;
+bottom:0px;
+z-index:10;
+position:absolute;
+right:2%;
+left:2%;
+padding-top:0px;
+padding-bottom:0px;
+color:#ffffff;
+text-shadow:0 3px 4px rgba(0, 0, 0, 0.6);
+/* Chrome, Firefox 3.5+, IE 10+, Opera 9+, Safari 1+ */
+:;
+}
+.caption-blue-text-title{
+text-align:left;
+line-height:0.8;
+padding:10px 12px 0px 12px;
+margin:8px;
+}
+h2, .h2{
+font-size:25px;
+}
+.caption-blue-text-body{
+text-align:left;
+padding:0px 20px;
+margin:1px;
+font-size:13px;
+}
+.caption-blue-text-about{
+margin:0 10px 5px 0;
+padding:20px;
+text-align:left;
+}
+.aplogo-lg{
+left:17%;
+top:22%;
+margin-left:-123px;
+margin-top:-123px;
+position:absolute;
+z-index:14;
+}
+.aplogo-md{
+left:17%;
+top:13%;
+margin-left:-92px;
+margin-top:-92px;
+position:absolute;
+z-index:13;
+}
+.aplogo-sm{
+left:50%;
+top:25%;
+margin-left:-69px;
+margin-top:-69px;
+position:absolute;
+z-index:12;
+}
+.aplogo-xs{
+left:50%;
+top:110px;
+margin-left:-52px;
+margin-top:-52px;
+position:absolute;
+z-index:11;
+}
+.carousel-indicators{
+opacity:0;
+z-index:5;
+}
+.produtos{
+text-align:center;
+color:#758785;
+}
+#footer{
+background-color:#006699;
+position:static;
+z-index:7;
+color:#FFFFFF;
+}
+.footer  a{
+color:#ffffff !important;
+text-decoration:none;
+}
+.footer  a:hover{
+color:#bbbbbb !important;
+text-decoration:none;
+}
+.footer  a:focus{
+color:#bbbbbb !important;
+text-decoration:none;
+}
+.vitrine img{
+display:block;
+/*transition*/
+-webkit-transition:opacity 0.6s;
+   -moz-transition:opacity 0.6s;
+     -o-transition:opacity 0.6s;
+        transition:opacity 0.6s;
+/* Chrome 1-25, Safari 3.2+ */
+/* Firefox 4-15 */
+/* Opera 10.50–12.00 */
+/* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
+:;
+}
+.vitrine a{
+width:100%;
+height:193px;
+background-color:transparent;
+left:0px;
+z-index:9999;
+text-decoration:none;
+position:absolute;
+}
+.vitrine h3{
+margin-top:45%;
+text-align:center;
+color:white;
+display:none;
+}
+.vitrine a:hover{
+background:url(../../img/plus.png) no-repeat 50% 40% rgba(0,0,0,0.5);
+/*transition*/
+-webkit-transition:background-color 0.6s;
+   -moz-transition:background-color 0.6s;
+     -o-transition:background-color 0.6s;
+        transition:background-color 0.6s;
+}
+.vitrine a:hover h3{
+display:block;
+}
+/*#vitrine img:hover{
+opacity:0.4;
+z-index:120;
+}
+*/
+
+
+.minibox{
+min-height:1px;
+padding-left:none;
+padding-right:none;
+position:relative;
+}
+.carousel .item{
+background-position:center center;
+background-repeat:no-repeat;
+/*background-size*/
+-webkit-background-size:/*@@prefixmycss->No equivalent*/
+:;
+/*@@prefixmycss->No equivalent*/
+/*background-size*/
+-webkit-background-size:/*@@prefixmycss->No equivalent*/;
+   -moz-background-size:cover;
+     -o-background-size:/*@@prefixmycss->No equivalent*/;
+        background-size:cover;
+/*@@prefixmycss->No equivalent*//* Safari 3-4 */
+/* Chrome, Firefox 4+, IE 9+, Opera, Safari 5+ */
+}
+.boxtel-lg{
+margin:0% 0% 2% 65%;
+}
+.boxtel-md{
+margin:0% 0% 2% 57%;
+}
+.boxtel-sm{
+margin:0% 0% 2% 25%;
+}
+.boxtel-xs{
+margin:0% 0% 3% 12%;
+}
+.letrasize{
+font-size:17px;
+text-shadow:0px 0px 1px rgba(0, 0, 0, 0.7);
+}
+.letranavbartablet a{
+color:#454545;
+text-decoration:none;
+}
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12{
+min-height:1px;
+padding:15px;
+position:relative;
+}
+.logo-social{
+padding:2px;
+}
+.manaweb{
+margin:60px 0px 0px 280px;
+}
+#carregando{
+text-align:center;
+display:none;
+}
+#carregando img{
+width:50px;
+}
+/********************* Pagina Produtos CSS  *******************************************/
+
+.loja-produto-box{
+margin:1% 1% 2%;
+padding:1%;
+}
+.produto-box{
+padding:0px;
+}
+#menu-lateral{
+background-color:#F5F5F5;
+}
+#menu-lateral a{
+text-decoration:none;
+color:#454545;
+}
+.separador-menu{
+border:0;
+border-top:1px solid #DEDEDE;
+margin-bottom:4px;
+margin-top:4px;
+}
+.menu-bar{
+padding:12px;
+}
+.bullet{
+list-style-image:url(./img/bullet-naver.png) !important;
+list-style-type:none;
+list-style-position:outside;
+padding:12px;
+}
+.pesquisar{
+/*border-radius*/
+-webkit-border-radius:0 !important;
+   -moz-border-radius:0 !important;
+        border-radius:0 !important;
+}
+/********************* FIM - Pagina Produtos CSS  *******************************************/
+
+
+
+/* carousel - minim */
+.media-carousel{
+margin-bottom:0;
+padding:0 40px 30px 40px;
+}
+/* Previous button  */
+.media-carousel .carousel-control.left{
+left:-12px;
+background-image:none;
+background:none repeat scroll 0 0 #222222;
+border:4px solid #FFFFFF;
+/*border-radius*/
+-webkit-border-radius:23px 23px 23px 23px;
+   -moz-border-radius:23px 23px 23px 23px;
+        border-radius:23px 23px 23px 23px;
+height:40px;
+width:40px;
+margin-top:170px;
+}
+.left.carousel-control.quemviu{
+margin-left:10px;
+right:auto;
+}
+/* Next button  */
+.media-carousel .carousel-control.right{
+right:-12px !important;
+background-image:none;
+background:none repeat scroll 0 0 #222222;
+border:4px solid #FFFFFF;
+/*border-radius*/
+-webkit-border-radius:23px 23px 23px 23px;
+   -moz-border-radius:23px 23px 23px 23px;
+        border-radius:23px 23px 23px 23px;
+height:40px;
+width:40px;
+margin-top:170px;
+}
+.right.carousel-control.quemviu{
+left:auto;
+margin-right:20px;
+}
+/* Changes the position of the indicators */
+.media-carousel .carousel-indicators{
+right:50%;
+top:auto;
+bottom:0px;
+margin-right:-19px;
+}
+/* Changes the colour of the indicators */
+.media-carousel .carousel-indicators li{
+background:#c0c0c0;
+}
+.media-carousel .carousel-indicators .active{
+background:#333333;
+}
+.media-carousel img{
+width:100%;
+}
+#media{
+height:280px;
+}
+#media .left.carousel-control, #media .right.carousel-control{
+margin-top:85px;
+}
+.quemviumedia{
+padding:0px;
+}
+.control-mini{
+z-index:0;
+}
+/************************** End carousel **************************/
+
+.foto-ver-produtos{
+z-index:10;
+}
+.ver-ampliada{
+bottom:15px;
+left:71px;
+position:absolute;
+z-index:11;
+}
+.loja-produto-box.img-thumbnail.col-custom.col-md-3.loja-produto-box{
+margin:1% 4% 0% 2%;
+padding:1%;
+}
+.loja-produto-box.img-thumbnail.col-custom.col-sm-3.loja-produto-box{
+margin:1% 4% 0% 4%;
+padding:1%;
+}
+.loja-produto-box.img-thumbnail.col-custom.col-xs-6.loja-produto-box{
+margin:1% 25% 0% 2%;
+padding:1%;
+}
+.cg{
+font-family:'century_gothicregular';
+src:url('gothic-webfont.eot');
+src:url('gothic-webfont.eot?#iefix') format('embedded-opentype'),url('gothic-webfont.woff') format('woff'),url('gothic-webfont.ttf') format('truetype'),url('gothic-webfont.svg#century_gothicregular') format('svg');
+font-weight:normal;
+font-style:normal;
+}
+#likebox-wrapper *{
+width:100% !important;
+}
+/********************* Ofertas *********************/
+.produtinho .ofertas{
+margin-left:50%;
+position:absolute;
+}
+/********************* Fim Ofertas *********************/
+
+
+/********************* H4cks *********************/
+
+/**** Selector Hacks ****/
+
+/* IE6 and below */
+* html #uno{
+color:red;
+}
+/* IE7 */
+*:first-child+html #dos{
+color:red;
+}
+/* IE7, FF, Saf, Opera  */
+html>body #tres{
+color:red;
+}
+/* IE8, FF, Saf, Opera (Everything but IE 6,7) */
+html>/**/body #cuatro{
+color:red;
+}
+/* Opera 9.27 and below, safari 2 */
+html:first-child #cinco{
+color:red;
+}
+/* Safari 2-3 */
+html[xmlns*=""] body:last-child #seis{
+color:red;
+}
+/* safari 3+, chrome 1+, opera9+, ff 3.5+ */
+body:nth-of-type(1) #siete{
+color:red;
+}
+/* safari 3+, chrome 1+, opera9+, ff 3.5+ */
+body:first-of-type #ocho{
+color:red;
+}
+/* saf3+, chrome1+ */
+@media screen and (-webkit-min-device-pixel-ratio:0){
+#diez  { color:red;
+}
+}
+
+/* iPhone / mobile webkit */
+@media screen and (max-device-width: 480px){
+#veintiseis { color:red;
+}
+}
+
+
+/* Safari 2 - 3.1 */
+html[xmlns*=""]:root #trece{
+color:red;
+}
+/* Safari 2 - 3.1, Opera 9.25 */
+*|html[xmlns*=""] #catorce{
+color:red;
+}
+/* Everything but IE6-8 */
+:root *> #quince{
+color:red;
+}
+/* IE7 */
+*+html #dieciocho{
+color:red;
+}
+/* IE 10+ */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none){
+#veintiun { color:red;
+}
+}
+
+/* Firefox only. 1+ */
+#veinticuatro,  x:-moz-any-link{
+color:red;
+}
+/* Firefox 3.0+ */
+#veinticinco,  x:-moz-any-link, x:default{
+color:red;
+}
+/* FF 3.5+ */
+body:not(:-moz-handler-blocked) #cuarenta{
+color:red;
+}
+/***** Attribute Hacks ******/
+
+/* IE6 */
+#once{
+_color:blue;
+}
+/* IE6, IE7 */
+#doce{
+*color:blue;
+/* or #color: blue */
+:;
+}
+/* Everything but IE6 */
+#diecisiete{
+/**/
+:blue;
+}
+/* IE6, IE7, IE8, but also IE9 in some cases :( */
+#diecinueve{
+color:blue\9;
+}
+/* IE7, IE8 */
+#veinte{
+/*\**/
+:blue\9;
+}
+/* IE6, IE7 -- acts as an !important */
+#veintesiete{
+color:blue !ie;
+}
+/* string after ! can be anything */
+
+/* IE8, IE9 */
+#anotherone{
+color:blue\0/;
+}
+/* must go at the END of all rules */
+
+/* IE9, IE10 */
+@media screen and (min-width:0\0){
+#veintidos { color:red;
+}
+/* ===================================== Ap-moveis Css ===================================== */
+
+.text-muted{
+color:#758785 !important;
+}
+.porcima{
+z-index:2;
+}
+.carousel-control{
+z-index:11;
+}
+.icon-next{
+z-index:11;
+}
+.navbar{
+margin-bottom:0px;
+}
+.carousel-caption{
+background:none repeat scroll 0 0 #1376D8;
+opacity:0.85;
+bottom:0px;
+z-index:10;
+position:absolute;
+right:13%;
+left:13%;
+padding-top:0px;
+padding-bottom:0px;
+color:#ffffff;
+text-shadow:0px 3px 4px 0px rgba(0, 0, 0, 0.6);
+/* Chrome, Firefox 3.5+, IE 10+, Opera 9+, Safari 1+ */
+:;
+}
+.caption-responsive > .col-lg-12{
+margin:20px 0px 0px 0px;
+}
+.caption-responsive > .col-md-12{
+margin:20px 0px 0px 0px;
+}
+.caption-responsive > .col-sm-12{
+margin:44px 0px 0px 0px;
+}
+.caption-responsive >.col-xs-12{
+margin:137px 0px 0px 0px;
+}
+.carousel-caption-responsive{
+background:none repeat scroll 0 0 #1376D8;
+opacity:0.85;
+bottom:0px;
+z-index:10;
+position:absolute;
+right:2%;
+left:2%;
+padding-top:0px;
+padding-bottom:0px;
+color:#ffffff;
+text-shadow:0 3px 4px rgba(0, 0, 0, 0.6);
+/* Chrome, Firefox 3.5+, IE 10+, Opera 9+, Safari 1+ */
+:;
+}
+.caption-blue-text-title{
+text-align:left;
+line-height:0.8;
+padding:10px 12px 0px 12px;
+margin:8px;
+}
+h2, .h2{
+font-size:25px;
+}
+.caption-blue-text-body{
+text-align:left;
+padding:0px 20px;
+margin:1px;
+font-size:13px;
+}
+.caption-blue-text-about{
+text-align:right;
+padding-right:20px;
+margin:0 0 5px;
+}
+.aplogo-lg{
+left:17%;
+top:22%;
+margin-left:-123px;
+margin-top:-123px;
+position:absolute;
+z-index:14;
+}
+.aplogo-md{
+left:17%;
+top:13%;
+margin-left:-92px;
+margin-top:-92px;
+position:absolute;
+z-index:13;
+}
+.aplogo-sm{
+left:50%;
+top:25%;
+margin-left:-69px;
+margin-top:-69px;
+position:absolute;
+z-index:12;
+}
+.aplogo-xs{
+left:50%;
+top:110px;
+margin-left:-52px;
+margin-top:-52px;
+position:absolute;
+z-index:11;
+}
+.carousel-indicators{
+opacity:0;
+z-index:5;
+}
+.produtos{
+text-align:center;
+color:#758785;
+}
+.footer  a{
+color:#ffffff !important;
+text-decoration:none;
+}
+.footer  a:hover{
+color:#bbbbbb !important;
+text-decoration:none;
+}
+.footer  a:focus{
+color:#bbbbbb !important;
+text-decoration:none;
+}
+.vitrine div > img{
+display:block;
+/*transition*/
+-webkit-transition:opacity 0.6s;
+   -moz-transition:opacity 0.6s;
+     -o-transition:opacity 0.6s;
+        transition:opacity 0.6s;
+/* Chrome 1-25, Safari 3.2+ */
+/* Firefox 4-15 */
+/* Opera 10.50–12.00 */
+/* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
+:;
+}
+.vitrine div > img:hover{
+opacity:0.4;
+z-index:120;
+}
+.minibox{
+min-height:1px;
+padding-left:none;
+padding-right:none;
+position:relative;
+}
+.carousel .item{
+background-position:center center;
+background-repeat:no-repeat;
+/*background-size*/
+-webkit-background-size:/*@@prefixmycss->No equivalent*/
+:;
+/*@@prefixmycss->No equivalent*/
+/*background-size*/
+-webkit-background-size:/*@@prefixmycss->No equivalent*/;
+   -moz-background-size:cover;
+     -o-background-size:/*@@prefixmycss->No equivalent*/;
+        background-size:cover;
+/*@@prefixmycss->No equivalent*//* Safari 3-4 */
+/* Chrome, Firefox 4+, IE 9+, Opera, Safari 5+ */
+}
+.boxtel-lg{
+margin:0% 0% 2% 65%;
+}
+.boxtel-md{
+margin:0% 0% 2% 57%;
+}
+.boxtel-sm{
+margin:0% 0% 2% 25%;
+}
+.boxtel-xs{
+margin:0% 0% 3% 12%;
+}
+.letrasize{
+font-size:17px;
+text-shadow:0px 0px 1px rgba(0, 0, 0, 0.7);
+}
+.letranavbartablet a{
+color:#454545;
+text-decoration:none;
+}
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12{
+min-height:1px;
+padding:15px;
+position:relative;
+}
+.logo-social{
+padding:2px;
+}
+.manaweb{
+margin:80px 0px 0px 280px;
+}
+/********************* Pagina Produtos CSS  *******************************************/
+
+.loja-produto-box{
+margin:1% 1% 2%;
+padding:1%;
+}
+.produto-box{
+padding:0px;
+}
+#menu-lateral{
+background-color:#F5F5F5;
+}
+#menu-lateral a{
+text-decoration:none;
+color:#454545;
+}
+.separador-menu{
+border:0;
+border-top:1px solid #DEDEDE;
+margin-bottom:4px;
+margin-top:4px;
+}
+.menu-bar{
+padding:12px;
+}
+.bullet{
+list-style-image:url(./img/bullet-naver.png) !important;
+list-style-type:none;
+list-style-position:outside;
+padding:12px;
+}
+.pesquisar{
+/*border-radius*/
+-webkit-border-radius:0 !important;
+   -moz-border-radius:0 !important;
+        border-radius:0 !important;
+}
+/********************* FIM - Pagina Produtos CSS  *******************************************/
+
+
+
+/* carousel - minim */
+.media-carousel{
+margin-bottom:0;
+padding:0 40px 30px 40px;
+}
+/* Previous button  */
+.media-carousel .carousel-control.left{
+left:-12px;
+background-image:none;
+background:none repeat scroll 0 0 #222222;
+border:4px solid #FFFFFF;
+/*border-radius*/
+-webkit-border-radius:23px 23px 23px 23px;
+   -moz-border-radius:23px 23px 23px 23px;
+        border-radius:23px 23px 23px 23px;
+height:40px;
+width:40px;
+margin-top:170px;
+}
+/* Next button  */
+.media-carousel .carousel-control.right{
+right:-12px !important;
+background-image:none;
+background:none repeat scroll 0 0 #222222;
+border:4px solid #FFFFFF;
+/*border-radius*/
+-webkit-border-radius:23px 23px 23px 23px;
+   -moz-border-radius:23px 23px 23px 23px;
+        border-radius:23px 23px 23px 23px;
+height:40px;
+width:40px;
+margin-top:170px;
+}
+/* Changes the position of the indicators */
+.media-carousel .carousel-indicators{
+right:50%;
+top:auto;
+bottom:0px;
+margin-right:-19px;
+}
+/* Changes the colour of the indicators */
+.media-carousel .carousel-indicators li{
+background:#c0c0c0;
+}
+.media-carousel .carousel-indicators .active{
+background:#333333;
+}
+.media-carousel img{
+height:100%;
+width:100%;
+}
+.control-mini{
+z-index:0;
+}
+/************************** End carousel **************************/
+
+.foto-ver-produtos{
+z-index:10;
+}
+.ver-ampliada{
+bottom:15px;
+left:71px;
+position:absolute;
+z-index:11;
+}
+.loja-produto-box.img-thumbnail.col-custom.col-md-3.loja-produto-box{
+margin:1% 4% 0% 2%;
+padding:1%;
+}
+.loja-produto-box.img-thumbnail.col-custom.col-sm-3.loja-produto-box{
+margin:1% 4% 0% 4%;
+padding:1%;
+}
+.loja-produto-box.img-thumbnail.col-custom.col-xs-6.loja-produto-box{
+margin:1% 25% 0% 2%;
+padding:1%;
+}
+.cg{
+font-family:'century_gothicregular';
+src:url('gothic-webfont.eot');
+src:url('gothic-webfont.eot?#iefix') format('embedded-opentype'),         url('gothic-webfont.woff') format('woff'),         url('gothic-webfont.ttf') format('truetype'),         url('gothic-webfont.svg#century_gothicregular') format('svg');
+font-weight:normal;
+font-style:normal;
+}
+#likebox-wrapper *{
+width:100% !important;
+}
+
+.footer{
+   margin-bottom: 0;
+}
+
+.contatorodape {
+    bottom: 50px;
+}
+
+/********************* H4cks *********************/
+
+/**** Selector Hacks ****/
+
+/* IE6 and below */
+* html #uno{
+color:red;
+}
+/* IE7 */
+*:first-child+html #dos{
+color:red;
+}
+/* IE7, FF, Saf, Opera  */
+html>body #tres{
+color:red;
+}
+/* IE8, FF, Saf, Opera (Everything but IE 6,7) */
+html>/**/body #cuatro{
+color:red;
+}
+/* Opera 9.27 and below, safari 2 */
+html:first-child #cinco{
+color:red;
+}
+/* Safari 2-3 */
+html[xmlns*=""] body:last-child #seis{
+color:red;
+}
+/* safari 3+, chrome 1+, opera9+, ff 3.5+ */
+body:nth-of-type(1) #siete{
+color:red;
+}
+/* safari 3+, chrome 1+, opera9+, ff 3.5+ */
+body:first-of-type #ocho{
+color:red;
+}
+/* saf3+, chrome1+ */
+@media screen and (-webkit-min-device-pixel-ratio:0){
+#diez  { color:red;
+}
+}
+
+/* iPhone / mobile webkit */
+@media screen and (max-device-width: 480px){
+#veintiseis { color:red;
+}
+}
+
+
+/* Safari 2 - 3.1 */
+html[xmlns*=""]:root #trece{
+color:red;
+}
+/* Safari 2 - 3.1, Opera 9.25 */
+*|html[xmlns*=""] #catorce{
+color:red;
+}
+/* Everything but IE6-8 */
+:root *> #quince{
+color:red;
+}
+/* IE7 */
+*+html #dieciocho{
+color:red;
+}
+/* IE 10+ */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none){
+#veintiun { color:red;
+}
+}
+
+/* Firefox only. 1+ */
+#veinticuatro,  x:-moz-any-link{
+color:red;
+}
+/* Firefox 3.0+ */
+#veinticinco,  x:-moz-any-link, x:default{
+color:red;
+}
+/* FF 3.5+ */
+body:not(:-moz-handler-blocked) #cuarenta{
+color:red;
+}
+/***** Attribute Hacks ******/
+
+/* IE6 */
+#once{
+_color:blue;
+}
+/* IE6, IE7 */
+#doce{
+*color:blue;
+/* or #color: blue */
+:;
+}
+/* Everything but IE6 */
+#diecisiete{
+/**/
+:blue;
+}
+/* IE6, IE7, IE8, but also IE9 in some cases :( */
+#diecinueve{
+color:blue\9;
+}
+/* IE7, IE8 */
+#veinte{
+/*\**/
+:blue\9;
+}
+/* IE6, IE7 -- acts as an !important */
+#veintesiete{
+color:blue !ie;
+}
+/* string after ! can be anything */
+
+/* IE8, IE9 */
+#anotherone{
+color:blue\0/;
+}
+/* must go at the END of all rules */
+
+/* IE9, IE10 */
+@media screen and (min-width:0\0){
+#veintidos { color:red;
+}
+input:invalid{
+border:1px solid red;
+}
+input:valid{
+border:1px solid green;
+}

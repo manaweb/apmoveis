@@ -1,0 +1,9 @@
+* { font-family:Arial; font-size:12px; } 
+#topo { display:none; } 
+#menu { display:none; }
+#rodape { display:none; }
+#ferramentas { display:none; }
+fieldset { margin:25px 0; }
+
+th { text-align:left; }
+td { padding:5px; }

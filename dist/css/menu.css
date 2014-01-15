@@ -1,0 +1,151 @@
+
+/******************************************* Menu CSS *******************************************/
+.menu {
+  opacity: 0.80;
+}
+
+.porcimacssmenu{
+  z-index: 12
+}
+
+#cssmenu,
+#cssmenu > ul {
+  background-color: #BBBBBB;
+}
+
+#cssmenu:before,
+#cssmenu:after,
+#cssmenu > ul:before,
+#cssmenu > ul:after {
+  content: '';
+  display: table;
+}
+
+#cssmenu:after,
+#cssmenu > ul:after {
+  clear: both;
+}
+
+#cssmenu {
+  width: 600px;
+}
+
+#cssmenu > ul {
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  opacity: 0.87;
+}
+
+#cssmenu > ul li {
+  list-style: none;
+}
+
+#cssmenu > ul > li {
+  float: left;
+  position: relative;
+}
+
+#cssmenu > ul > li > a {
+  display: block;
+  color: black;
+  font-size: 16px;
+  padding: 10px 25px;
+  text-decoration: none;
+  text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.7); /* Chrome, Firefox 3.5+, IE 10+, Opera 9+, Safari 1+ */
+}
+
+#cssmenu > ul > li:hover > a {
+  background-color: #BBBBBB;
+  text-shadow: 0 -1px 0 #353F48; /* Chrome, Firefox 3.5+, IE 10+, Opera 9+, Safari 1+ */
+  text-shadow: 0 -1px 0 rgba(122, 42 26, 0.64); /* Chrome, Firefox 3.5+, IE 10+, Opera 9+, Safari 1+ */
+  display: block;
+}
+
+#cssmenu > ul > li > a > span {
+  line-height: 18px;
+}
+
+#cssmenu > ul > li.active > a,
+#cssmenu > ul > li > a:active {
+  background-color: #BBBBBB;
+  text-shadow: 0 -1px 0 #353F48; /* Chrome, Firefox 3.5+, IE 10+, Opera 9+, Safari 1+ */
+  text-shadow: 0 -1px 0 rgba(122, 42 26, 0.64); /* Chrome, Firefox 3.5+, IE 10+, Opera 9+, Safari 1+ */
+  display: block;
+}
+
+/* Childs */
+#cssmenu > ul ul {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  z-index: 2000;
+}
+
+#cssmenu > ul li:hover ul {
+  opacity: 1;
+  visibility: visible;
+  margin: 0;
+  color: #000;
+  z-index: 2;
+  left: 0;
+  display: block;
+}
+
+#cssmenu > ul ul:before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  width: 100%;
+  height: 20px;
+  background: transparent;
+}
+
+#cssmenu > ul ul li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+#cssmenu > ul ul li a {
+  padding: 8px;
+  display: block;
+  color: #000000;;
+  text-decoration: none;
+  font-size: 15px;
+  width: 365px;
+  border-left: 4px solid transparent;
+  -webkit-transition: all 0.35s ease-in-out; /* Chrome 1-25, Safari 3.2+ */
+  -moz-transition: all 0.35s ease-in-out;  /* Firefox 4-15 */
+  -o-transition: all 0.35s ease-in-out;  /* Opera 10.50–12.00 */
+  -ms-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out; /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
+  text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.7); /* Chrome, Firefox 3.5+, IE 10+, Opera 9+, Safari 1+ */
+}
+
+#cssmenu > ul ul li a:hover {
+  background-color: #BBBBBB;
+  text-shadow: 0 -1px 0 #353F48; /* Chrome, Firefox 3.5+, IE 10+, Opera 9+, Safari 1+ */
+  text-shadow: 0 -1px 0 rgba(122, 42 26, 0.64); /* Chrome, Firefox 3.5+, IE 10+, Opera 9+, Safari 1+ */
+
+  display: block;
+}
+
+#cssmenu > ul ul li a:active {
+  background-color: white;
+  text-shadow: 0 -1px 0 #353F48; /* Chrome, Firefox 3.5+, IE 10+, Opera 9+, Safari 1+ */
+  text-shadow: 0 -1px 0 rgba(122, 42 26, 0.64); /* Chrome, Firefox 3.5+, IE 10+, Opera 9+, Safari 1+ */
+  display: block;
+}
+
+.box-flag {
+  background-image: url(./img/box-flag.png);
+}
+
+
+/******************************************* FIM Menu CSS *******************************************/
