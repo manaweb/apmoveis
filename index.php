@@ -95,7 +95,7 @@
       ?>
       <div class="center-block img-responsive col-xs-3 col-sm-3 col-md-3 col-lg-3">
         <a href="ver_produtos.php?id=<?=$dadosProduto['id']?>">
-          <p class="titulo center-block text-center hidden-xs"><strong><?php echo utf8_encode($dadosProduto['nome']); ?></strong>strong></p>
+          <p class="titulo center-block text-center hidden-xs"><strong><?php echo utf8_encode($dadosProduto['nome']); ?></strong></p>
         </a>
           <img class="center-block img-responsive" src="painel/arquivos/produtos/_miniaturas/<?=$dadosProduto['foto1']?>" alt="" />
       </div>
