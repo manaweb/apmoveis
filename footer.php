@@ -29,9 +29,9 @@
           <a class="letrasize logo-social pull-right" href="#">
             <img src="./img/twitter-logo.png" alt="twitter"></a>
           <a href="http://www.w3.org/html/logo/">
-            <img src="http://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png" alt="HTML5 Powered with CSS3 / Styling, and Semantics" title="HTML5 Powered with CSS3 / Styling, and Semantics"></a>
+            <img  class="img-responsive pull-right"  src="http://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png" alt="HTML5 Powered with CSS3 / Styling, and Semantics" title="HTML5 Powered with CSS3 / Styling, and Semantics"></a>
           <a href="http://www.getboostrap.com/">
-            <img class="img-responsive" src="./img/responsive.png" alt="BootStrap 3.0 Twitter Web Responsive" title="BootStrap 3.0 Twitter Web Responsive"></a>
+            <img class="img-responsive pull-right" src="./img/responsive.png" alt="BootStrap 3.0 Twitter Web Responsive" title="BootStrap 3.0 Twitter Web Responsive"></a>
           <a class="letrasize manaweb pull-right" href="http://www.manaweb.com.br/" target="_blank">
             <img src="./img/mana-logo.png" alt="ManáWeb + Buscapé"></a>
         </div>
@@ -41,7 +41,7 @@
           <h2>ou faça-nos uma visita</h2>
           <ul class="list-inline">
             <li>
-              <img class="img-responsive" src="./img/map-icon.png" alt="place"></li>
+              <img src="./img/map-icon.png" alt="place"></li>
             <li>
               <a class="letrasize" href="#">
                 <h4>Rua São Sebastião, 503 - CEP 14870-720 Centro - Jaboticabal - SP</h4>
@@ -50,7 +50,7 @@
           </ul>
           <ul class="list-inline">
             <li>
-              <img class="img-responsive" src="./img/phone-icon.png" alt="telefone"/>
+              <img src="./img/phone-icon.png" alt="telefone"/>
             </li>
             <li>
               <a class="letrasize" href="#">
@@ -60,7 +60,7 @@
           </ul>
           <ul class="list-inline">
             <li>
-              <img class="img-responsive" src="./img/mail-icon.png" alt="mail"/>
+              <img src="./img/mail-icon.png" alt="mail"/>
             </li>
             <li>
               <a class="letrasize" href="#">
@@ -70,7 +70,6 @@
           </ul>
         </div>
       </div>
-
     </div> <!--/.container FOOTER-->
 </div> <!--Fim-FOOTER-->
 

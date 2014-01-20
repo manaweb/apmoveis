@@ -108,7 +108,6 @@
         ';  
       }
     } 
-
         ?>
      </div><!-- /.row -->
       
@@ -130,8 +129,6 @@
          <div class="fb-like-box" data-href="https://www.facebook.com/lojaapmoveis" data-height="100%" data-colorscheme="light" data-show-faces="false" data-header="false" data-stream="true" data-show-border="true"></div>
         </div>
       </div>
-
-      <div class="cleafix"></div>
 
       <div class="col-md-4">
         <h2 class="featurette-heading">
