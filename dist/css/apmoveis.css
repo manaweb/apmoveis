@@ -149,29 +149,34 @@ display:block;
 :;
 }
 .vitrine a{
-width:100%;
-height:193px;
+width:95%;
+height:95%;
 background-color:transparent;
 left:0px;
 z-index:9999;
 text-decoration:none;
 position:absolute;
+border: solid 1px #758785;
+-webkit-border-radius: 5%;
+-moz-border-radius: 5%;
+border-radius: 5%;
 }
-.vitrine h3{
-margin-top:45%;
+
+.vitrine p strong{
+margin-top:55%;
 text-align:center;
 color:white;
 display:none;
 }
 .vitrine a:hover{
-background:url(../../img/plus.png) no-repeat 50% 40% rgba(0,0,0,0.5);
+background:url(../../img/plus.png) no-repeat 50% 45% rgba(0,0,0,0.5);
 /*transition*/
 -webkit-transition:background-color 0.6s;
    -moz-transition:background-color 0.6s;
      -o-transition:background-color 0.6s;
         transition:background-color 0.6s;
 }
-.vitrine a:hover h3{
+.vitrine a:hover p strong{
 display:block;
 }
 /*#vitrine img:hover{
@@ -179,7 +184,6 @@ opacity:0.4;
 z-index:120;
 }
 */
-
 
 .minibox{
 min-height:1px;
@@ -195,10 +199,13 @@ background-repeat:no-repeat;
 :;
 /*@@prefixmycss->No equivalent*/
 /*background-size*/
+-webkit-background-size:/*@@prefixmycss->No equivalent*/
+/*background-size*/
 -webkit-background-size:/*@@prefixmycss->No equivalent*/;
    -moz-background-size:cover;
      -o-background-size:/*@@prefixmycss->No equivalent*/;
         background-size:cover;
+/*@@prefixmycss->No equivalent*/
 /*@@prefixmycss->No equivalent*//* Safari 3-4 */
 /* Chrome, Firefox 4+, IE 9+, Opera, Safari 5+ */
 }
@@ -336,11 +343,8 @@ background:#c0c0c0;
 .media-carousel .carousel-indicators .active{
 background:#333333;
 }
-.media-carousel img{
-width:100%;
-}
 #media{
-height:280px;
+height:100%;
 }
 #media .left.carousel-control, #media .right.carousel-control{
 margin-top:85px;
@@ -679,10 +683,13 @@ background-repeat:no-repeat;
 :;
 /*@@prefixmycss->No equivalent*/
 /*background-size*/
+-webkit-background-size:/*@@prefixmycss->No equivalent*/
+/*background-size*/
 -webkit-background-size:/*@@prefixmycss->No equivalent*/;
    -moz-background-size:cover;
      -o-background-size:/*@@prefixmycss->No equivalent*/;
         background-size:cover;
+/*@@prefixmycss->No equivalent*/
 /*@@prefixmycss->No equivalent*//* Safari 3-4 */
 /* Chrome, Firefox 4+, IE 9+, Opera, Safari 5+ */
 }
@@ -838,31 +845,26 @@ padding:1%;
 .cg{
 font-family:'century_gothicregular';
 src:url('gothic-webfont.eot');
-src:url('gothic-webfont.eot?#iefix') format('embedded-opentype'),
-    url('gothic-webfont.woff') format('woff'),  
-    url('gothic-webfont.ttf') format('truetype'),     
-    url('gothic-webfont.svg#century_gothicregular') format('svg');
+src:url('gothic-webfont.eot?#iefix') format('embedded-opentype'),    url('gothic-webfont.woff') format('woff'),      url('gothic-webfont.ttf') format('truetype'),         url('gothic-webfont.svg#century_gothicregular') format('svg');
 font-weight:normal;
 font-style:normal;
 }
 #likebox-wrapper *{
 width:100% !important;
 }
-
 .footer{
-   margin-bottom: 0;
+margin-bottom:0;
 }
-
-.contatorodape {
-    bottom: 50px;
+.contatorodape{
+bottom:50px;
 }
 .navbar-collapse{
-  max-height: auto !important;
+max-height:auto !important;
+}
+.navbar-collapse.in{
+overflow-y:hidden;
 }
 
-.navbar-collapse.in {
-    overflow-y: hidden;
-}
 /********************* H4cks *********************/
 
 /**** Selector Hacks ****/

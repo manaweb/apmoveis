@@ -95,7 +95,7 @@
       ?>
       <div class="center-block img-responsive col-xs-3 col-sm-3 col-md-3 col-lg-3">
         <a href="ver_produtos.php?id=<?=$dadosProduto['id']?>">
-          <h3 class="titulo center-block"><?php echo utf8_encode($dadosProduto['nome']); ?></h3>
+          <p class="titulo center-block text-center hidden-xs"><strong><?php echo utf8_encode($dadosProduto['nome']); ?></strong></p>
         </a>
           <img class="center-block img-responsive" src="painel/arquivos/produtos/_miniaturas/<?=$dadosProduto['foto1']?>" alt="" />
       </div>
@@ -108,7 +108,6 @@
         ';  
       }
     } 
-
         ?>
      </div><!-- /.row -->
       
@@ -130,8 +129,6 @@
          <div class="fb-like-box" data-href="https://www.facebook.com/lojaapmoveis" data-height="100%" data-colorscheme="light" data-show-faces="false" data-header="false" data-stream="true" data-show-border="true"></div>
         </div>
       </div>
-
-      <div class="cleafix"></div>
 
       <div class="col-md-4">
         <h2 class="featurette-heading">
@@ -169,9 +166,9 @@
           </div>
         </div>
 
-        <div class="">
+        
           <img class="img-responsive center-block" src="./img/contato.png" alt="..."/>
-        </div>
+        
       </div>
     </div>
 </div>
