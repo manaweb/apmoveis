@@ -237,9 +237,6 @@ position:relative;
 .logo-social{
 padding:2px;
 }
-.manaweb{
-margin:60px 0px 0px 280px;
-}
 #carregando{
 text-align:center;
 display:none;
@@ -724,6 +721,9 @@ padding:2px;
 .manaweb{
 margin:80px 0px 0px 280px;
 }
+.nossaloja > a > img{
+  max-height: 100%;
+}
 /********************* Pagina Produtos CSS  *******************************************/
 
 .loja-produto-box{
@@ -854,9 +854,6 @@ width:100% !important;
 }
 .footer{
 margin-bottom:0;
-}
-.contatorodape{
-bottom:50px;
 }
 .navbar-collapse{
 max-height:auto !important;
