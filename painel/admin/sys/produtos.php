@@ -28,6 +28,34 @@ include('../includes/Mensagem.php');
 <br />
 <?
 
+// -----------------------------------------------------------------------------------------------------------
+	// Sistema de Busca
+	// -----------------------------------------------------------------------------------------------------------
+	$busca='';
+	if ($_GET['id'] > 0) {
+		$busca .= ' AND p.id='.(int)$_GET['id'];
+		$dados_busca['id']= $_GET['id'];
+	}
+
+	
+
+	# noticias
+	$noticias=array('-'=>'0');
+	$tmp1s = db_consulta("SELECT * FROM tbprodutos ORDER BY id DESC");
+	while ($tmp1 = db_lista($tmp1s)) {
+		$noticias[$tmp1['nome'].' - <span style="font-weight: bold;font-size: 18px;">'.$tmp1['id'].'</span>'] = $tmp1['id'];
+	}
+
+
+	# Os campos
+	$campos = array(
+		#	0=>Tipo			1=>Titulo		2=>Nome Campo		3=>Tamanho(px)	4=>CampoExtra		5=>Comentário								6=>Atributos
+		array('select',		'Produtos',		'id',		'250',			$noticias,			'',											''),
+		
+	);
+
+	# Exibindo os campos
+	echo adminBusca($campos,$Config,$dados_busca);
 
 
 	# Montando os campos
@@ -49,12 +77,12 @@ include('../includes/Mensagem.php');
 
 	$SQL = "SELECT p . * , concat(c.categoria, ' >> ', s.subcategoria) as categoria_subcategoria ,s.id_subcategoria
 			FROM tbprodutos_categorias c, tbprodutos p, tbprodutos_subcategorias s
-			WHERE c.id_categoria = s.categoria
-			AND p.id_subcategoria = s.id_subcategoria";
+			WHERE (c.id_categoria = s.categoria
+			AND p.id_subcategoria = s.id_subcategoria) $busca";
 
 	# Processando os dados
 	$total = mysql_num_rows(mysql_query($SQL));
-	$Lista = new Consulta($SQL,$total,$PGATUAL);
+	$Lista = new Consulta($SQL,20,$PGATUAL);
 	while ($linha = db_lista($Lista->consulta)) {
 		$dados[] = $linha;
 	}
@@ -66,7 +94,7 @@ include('../includes/Mensagem.php');
 
 
 	# PaginaÃ§Ã£o
-	//echo '<div class="paginacao">'.$Lista->geraPaginacao().'</div>';
+	echo '<div class="paginacao">'.$Lista->geraPaginacao().'</div>';
 
 
 
