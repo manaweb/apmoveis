@@ -52,7 +52,7 @@
 
   <!-- NAVBAR ================================================== -->
   <div class="navbar-wrapper hidden-lg hidden-md visible-sm visible-xs">
-    <header class="navbar navbar-inverse navbar-static-top" role="navigation">
+    <header class="navbar navbar-inverse navbar-fix-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
            <div class="input-group col-md-11 col-sm-11 col-xs-9" style="padding: 8px;">

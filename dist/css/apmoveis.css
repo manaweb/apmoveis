@@ -855,8 +855,8 @@ width:100% !important;
 .footer{
 margin-bottom:0;
 }
-.navbar-collapse{
-max-height:auto !important;
+.navbar-collapse .collapse{
+max-height:100% !important;
 }
 .navbar-collapse.in{
 overflow-y:hidden;
